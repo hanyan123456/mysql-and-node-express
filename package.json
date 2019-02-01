@@ -1,21 +1,30 @@
 {
-  "name": "index1",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
-  },
+  "name": "mysql-and-node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "~2.5.7",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "ejs": "^2.5.9",
+    "express": "^4.16.4",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.1",
     "mysql": "^2.16.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanyan123456/mysql-and-node-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanyan123456/mysql-and-node-express/issues"
+  },
+  "homepage": "https://github.com/hanyan123456/mysql-and-node-express#readme"
 }
